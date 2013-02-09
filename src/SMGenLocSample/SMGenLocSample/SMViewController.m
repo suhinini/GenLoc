@@ -14,8 +14,8 @@
 - (void) viewDidLoad {
     [super viewDidLoad];
     
-    self.txtDescription.text = NSLocalizedString(@"TEXT_DESCRIPTION", nil);
-    [self.btnPress setTitle:NSLocalizedString(@"TEXT_PRESS", nil) forState:UIControlStateNormal];
+    self.txtDescription.text = NSLocalizedString(SMLocalizedTextDescription, nil);
+    [self.btnPress setTitle:NSLocalizedString(SMLocalizedTextPress, nil) forState:UIControlStateNormal];
     
     leftCounter = 0;
     centerCounter = 0;
