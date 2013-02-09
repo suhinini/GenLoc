@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  SMGenLocSample
+
+  Created by Ivan Suhinin on 2/9/13.
+  Copyright (c) 2013 Cherrit. All rights reserved.
+*/
+
+"TEXT_DESCRIPTION" = "By using \"Press\" button you will increment one of values below.\n\nCan you predict which one will win?";
+"TEXT_PRESS" = "Press";
