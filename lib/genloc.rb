@@ -50,12 +50,16 @@ if ($should_generate_file)
     def constant_from_key(key)
         raw_parts = key.split("_")
         result_parts = []
-        
+    
+    if raw_parts.length > 1
         for raw_part in raw_parts
             result_parts << raw_part.capitalize
         end
         
         result_parts.join
+        else
+        key
+        end
     end
 
     $definitions = ["// %s\n" % $formatted_modified_date]
